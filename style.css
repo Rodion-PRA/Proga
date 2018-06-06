@@ -1,0 +1,30 @@
+body{
+	margin: 0px;
+	padding: 0;
+	width: 100%;
+}
+h1{
+	text-align: center;
+	font-size: 30px;
+	color: #3AE2B2;
+}
+.header{
+	background-color: #FFDD00; 
+	display: block;
+	border: 14px outset #00CA00;
+}
+main{
+	display: inline-block;
+	width: 100%;
+	height: auto;
+}
+.task{
+	font-size: 20px;
+	display: block;
+}
+.data{
+	display: block;
+}
+.status{
+	list-style: none;
+}
