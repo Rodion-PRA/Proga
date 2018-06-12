@@ -7,24 +7,36 @@ h1{
 	text-align: center;
 	font-size: 30px;
 	color: #3AE2B2;
-}
-.header{
 	background-color: #FFDD00; 
 	display: block;
 	border: 14px outset #00CA00;
+}
+header{
+	display: inline-block;
+	width: 100%;
+	height: auto;
+}
+
+.sub-menu {
+	height: 0;
+	opacity: 0;
+	transition: all 0.5s ease-in;
 }
 main{
 	display: inline-block;
 	width: 100%;
 	height: auto;
 }
-.task{
-	font-size: 20px;
-	display: block;
+
+.menu_priority{
+	float: left;
+	display: inline-block;
+	padding-right: 3%;
+	width: 30%;
+	height: 40px;
+	text-align: center;
+	list-style: none;
 }
-.data{
-	display: block;
-}
-.status{
+li{
 	list-style: none;
 }
