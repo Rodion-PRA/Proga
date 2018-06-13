@@ -15,13 +15,13 @@
       <h2>Задача</h2>
       <ul class="sub-menu">
          <li>
-            <p><input type="text" name="task"> Новая задача</p>
+            <p>Ведите новую задачу<input type="text" name="task"> </p>
          </li>
          <li>
-            <p><input type="buttom" name="cancel_task"> Отменить Задачу</p>
+            <p>Отменить Задачу<input type="button" name="cancel_task"> </p>
          </li>
       	<li>
-            <p><input type="buttom" name="redaction"> Внести изменения в выбранную задачу</p>
+            <p>Редактировать выбранную задачу<input type="button" name="redaction"> </p>
          </li>
       </ul>
    </li>
@@ -40,19 +40,20 @@
 						<p><input type="radio" name="status" value="rad3"> Низкий Приоритет</p>
 					</li>
       </ul>
+    </li>   
 </div>
 <div class="menu_priority">
-   </li>
    <li class="menu-item">
       <h2>Дата</h2>
       <ul class="sub-menu">
          <li>
-            <a href="#">Изменить дату и время</a>
+            <p>Изменить дату и время <input type="date" name="date"></p>
          </li>
       </ul>
    </li>
 </div>
 </main>
+
 <script>
 var el = document.getElementsByClassName('menu-item');
 for(var i=0; i<el.length; i++) {

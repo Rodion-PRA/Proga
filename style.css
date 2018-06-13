@@ -30,13 +30,28 @@ main{
 
 .menu_priority{
 	float: left;
-	display: inline-block;
+	display: block;
 	padding-right: 3%;
 	width: 30%;
-	height: 40px;
+	height: auto;
 	text-align: center;
 	list-style: none;
 }
-li{
+.menu_priority li{
 	list-style: none;
+	display: block;
+	width: inherit;
+	height: auto;
+	width: 100%;
+	font-size: 20px;
+}
+h2{
+	font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+p{
+	font-size: 20px;
+	text-align: left;
+
 }
